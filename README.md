@@ -19,7 +19,7 @@ uint64_t cryptomon_index, bool swap, eosio::asset price where the primary key is
 
 # Contract Actions
 upsertplayer(): creates entry in players table or updates existing Player's playerName field
-createmon(): creates entry in cryptomons for callee (Player) if they have none, and sets cryptomon_index in players table to key of Cryptomon
+createmon(): creates entry in cryptomons for callee (Player) if they have none, and sets cryptomon_index in players table to key of\n Cryptomon
 playerfund(): if a transfer to contract's account occurs, deposit asset to respective player
 deleteplayer(): deletes player from players table associated with account if it exists
 deletemon(): deletes entry in cryptomons table of the Cryptomon that corresponds with the callee (Player)
